@@ -1,0 +1,61 @@
+{
+  "carBrands": [
+    {
+      "brand": "VolksWagen",
+      "models": [
+        {
+          "name": "Golf",
+          "year": 2017,
+          "cc": 1800,
+          "hp": 98,
+          "type": "Sedan"
+        },
+        {
+          "name": "Polo",
+          "year": 2018,
+          "cc": 2000,
+          "hp": 100,
+          "type": "Hatchback"
+        }
+      ]
+    },
+    {
+      "brand": "Chevrolet",
+      "models": [
+        {
+          "name": "Spark",
+          "year": 2017,
+          "cc": 1200,
+          "hp": 48,
+          "type": "Hatchback"
+        },
+        {
+          "name": "Sail",
+          "year": 2018,
+          "cc": 1600,
+          "hp": 86,
+          "type": "Sedan"
+        }
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "models": [
+        {
+          "name": "Corola",
+          "year": 2018,
+          "cc": 2200,
+          "hp": 100,
+          "type": "Sedan"
+        },
+        {
+          "name": "Prius",
+          "year": 2018,
+          "cc": 1800,
+          "hp": 86,
+          "type": "Hibrid"
+        }
+      ]
+    }
+  ]
+}
