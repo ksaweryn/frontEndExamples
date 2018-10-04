@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <style>
+      .ancho-50 {
+          display: table-cell;
+          height: auto;
+          vertical-align: bottom;
+          list-style-type: none;
+          width: 80%;
+      }
+
+      .mostrar-como-tabla {
+        display: table;
+        height: 200px;
+      }
+
+      .ancho-100 {
+        width: 80%%;
+        display: inline-block;
+      }
+
+      .alinear-texto-izquierda {
+        text-align: left;
+      }
+
+      .imagen {
+        width: 27%; /*cambiar de acuerdo a la altura del texto*/  
+        height: 20%;
+        margin: 0 20px 0 49%;
+      }
+
+      @media (max-width: 500px) {
+        div {
+          width: 100%;
+          margin-bottom: 15px;
+        }
+      }
+    </style>
+</head>
+<body>
+  <div class="mostrar-como-tabla">
+
+    <div class="ancho-50">
+      <img class="imagen" src="http://www.teamrubber.com/wp-content/uploads/2011/01/HTML5_logo.jpg" alt="HTML 5">
+    </div>
+    <div class="ancho-50 alinear-texto-izquierda">
+      <div class="ancho-100">Lorem ipsum dolor sit amet</div>
+      <div class="ancho-100">Lorem ipsum dolor sit amet</div>
+      <div class="ancho-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    </div>
+  </div>
+  <br/>
+  <br/>
+  <br/>
+</body>
+</html>
