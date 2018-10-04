@@ -1,2 +1,2 @@
 # frontEndExamples
-Code play for html CSS JS Jquery
+Code playground for HTML, CSS, JS & JQuery
